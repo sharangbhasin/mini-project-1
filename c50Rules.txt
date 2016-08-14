@@ -1,0 +1,411 @@
+
+Call:
+C5.0.formula(formula = qualitycat ~ ., data = train, rules = TRUE)
+
+
+C5.0 [Release 2.07 GPL Edition]  	Fri Jul 22 22:32:56 2016
+-------------------------------
+
+Class specified by attribute `outcome'
+
+Read 4550 cases (13 attributes) from undefined.data
+
+Rules:
+
+Rule 1: (41, lift 2.7)
+	fixed.acidity > 8.9
+	fixed.acidity <= 10
+	volatile.acidity > 0.26
+	citric.acid > 0.32
+	residual.sugar > 1.8
+	alcohol <= 10.3
+	->  class BAD  [0.977]
+
+Rule 2: (36, lift 2.7)
+	fixed.acidity <= 8.9
+	volatile.acidity > 0.665
+	citric.acid <= 0.03
+	alcohol <= 10.3
+	->  class BAD  [0.974]
+
+Rule 3: (16, lift 2.6)
+	citric.acid > 0.04
+	free.sulfur.dioxide > 12
+	free.sulfur.dioxide <= 16
+	density > 0.99445
+	sulphates <= 0.58
+	alcohol > 10.3
+	alcohol <= 11.7
+	->  class BAD  [0.944]
+
+Rule 4: (68/3, lift 2.6)
+	fixed.acidity > 8.9
+	fixed.acidity <= 10
+	volatile.acidity > 0.26
+	sulphates <= 0.62
+	alcohol <= 10.3
+	->  class BAD  [0.943]
+
+Rule 5: (14, lift 2.6)
+	fixed.acidity <= 8.9
+	volatile.acidity > 0.26
+	density > 0.9989
+	alcohol > 9.5
+	alcohol <= 10.3
+	->  class BAD  [0.938]
+
+Rule 6: (12, lift 2.5)
+	fixed.acidity <= 10
+	volatile.acidity > 0.26
+	chlorides > 0.037
+	free.sulfur.dioxide > 54
+	sulphates > 0.58
+	alcohol <= 9.5
+	->  class BAD  [0.929]
+
+Rule 7: (12, lift 2.5)
+	fixed.acidity > 8.9
+	fixed.acidity <= 10
+	chlorides > 0.097
+	alcohol <= 10.3
+	->  class BAD  [0.929]
+
+Rule 8: (108/7, lift 2.5)
+	fixed.acidity <= 10
+	volatile.acidity > 0.26
+	pH <= 3.28
+	alcohol > 9.1
+	alcohol <= 9.5
+	color = red
+	->  class BAD  [0.927]
+
+Rule 9: (11, lift 2.5)
+	volatile.acidity > 0.245
+	volatile.acidity <= 0.26
+	citric.acid <= 0.19
+	alcohol <= 10.1
+	->  class BAD  [0.923]
+
+Rule 10: (11, lift 2.5)
+	volatile.acidity > 0.205
+	density > 0.99575
+	pH > 3.09
+	pH <= 3.14
+	alcohol > 10.3
+	alcohol <= 11.7
+	color = white
+	->  class BAD  [0.923]
+
+Rule 11: (23/1, lift 2.5)
+	volatile.acidity > 0.495
+	sulphates <= 0.37
+	->  class BAD  [0.920]
+
+Rule 12: (10, lift 2.5)
+	volatile.acidity > 0.53
+	residual.sugar <= 10.4
+	alcohol > 10.3
+	alcohol <= 11.7
+	color = white
+	->  class BAD  [0.917]
+
+Rule 13: (19/1, lift 2.5)
+	fixed.acidity > 5.7
+	volatile.acidity <= 0.26
+	citric.acid <= 0.22
+	residual.sugar <= 12
+	chlorides <= 0.06
+	pH > 3.03
+	alcohol <= 9.55
+	->  class BAD  [0.905]
+
+Rule 14: (8, lift 2.5)
+	chlorides > 0.096
+	sulphates > 0.57
+	alcohol <= 10.3
+	color = white
+	->  class BAD  [0.900]
+
+Rule 15: (8, lift 2.5)
+	fixed.acidity <= 6.9
+	citric.acid > 0.04
+	free.sulfur.dioxide > 11
+	free.sulfur.dioxide <= 16
+	density > 0.99445
+	sulphates <= 0.58
+	alcohol > 10.3
+	->  class BAD  [0.900]
+
+Rule 16: (18/1, lift 2.5)
+	volatile.acidity > 0.205
+	residual.sugar <= 1.65
+	total.sulfur.dioxide > 127
+	density <= 0.99226
+	alcohol > 10.3
+	alcohol <= 10.8
+	->  class BAD  [0.900]
+
+Rule 17: (26/2, lift 2.5)
+	volatile.acidity > 0.26
+	pH <= 3.28
+	sulphates > 0.58
+	alcohol <= 9.25
+	color = white
+	->  class BAD  [0.893]
+
+Rule 18: (16/1, lift 2.4)
+	volatile.acidity > 0.26
+	residual.sugar <= 1.65
+	sulphates > 0.57
+	alcohol <= 9.5
+	->  class BAD  [0.889]
+
+Rule 19: (7, lift 2.4)
+	volatile.acidity > 0.205
+	free.sulfur.dioxide > 16
+	density > 0.99575
+	pH > 3.41
+	alcohol > 10.3
+	alcohol <= 10.8
+	->  class BAD  [0.889]
+
+Rule 20: (6, lift 2.4)
+	volatile.acidity <= 0.145
+	free.sulfur.dioxide <= 24
+	alcohol > 9.55
+	alcohol <= 9.95
+	->  class BAD  [0.875]
+
+Rule 21: (100/12, lift 2.4)
+	volatile.acidity > 0.26
+	residual.sugar <= 6.75
+	chlorides > 0.047
+	total.sulfur.dioxide > 96
+	sulphates <= 0.74
+	alcohol > 9.5
+	alcohol <= 10.3
+	->  class BAD  [0.873]
+
+Rule 22: (13/1, lift 2.4)
+	free.sulfur.dioxide <= 13
+	total.sulfur.dioxide > 75
+	total.sulfur.dioxide <= 126
+	sulphates > 0.58
+	alcohol > 10.3
+	alcohol <= 11.7
+	->  class BAD  [0.867]
+
+Rule 23: (19/2, lift 2.4)
+	volatile.acidity > 0.87
+	free.sulfur.dioxide > 16
+	->  class BAD  [0.857]
+
+Rule 24: (18/2, lift 2.3)
+	volatile.acidity <= 0.26
+	chlorides <= 0.033
+	sulphates <= 0.49
+	alcohol <= 10.1
+	->  class BAD  [0.850]
+
+Rule 25: (23/3, lift 2.3)
+	volatile.acidity > 0.205
+	residual.sugar <= 1.65
+	total.sulfur.dioxide <= 86
+	density <= 0.99575
+	alcohol > 10.3
+	alcohol <= 10.8
+	->  class BAD  [0.840]
+
+Rule 26: (15/2, lift 2.3)
+	fixed.acidity > 7.1
+	volatile.acidity > 0.25
+	residual.sugar <= 1.65
+	total.sulfur.dioxide <= 127
+	density <= 0.99575
+	alcohol > 10.3
+	alcohol <= 10.8
+	->  class BAD  [0.824]
+
+Rule 27: (26/4, lift 2.3)
+	volatile.acidity > 0.205
+	volatile.acidity <= 0.26
+	residual.sugar > 17.7
+	->  class BAD  [0.821]
+
+Rule 28: (126/26, lift 2.2)
+	fixed.acidity <= 10
+	volatile.acidity > 0.26
+	residual.sugar <= 6.75
+	sulphates > 0.47
+	sulphates <= 0.74
+	alcohol > 9.5
+	alcohol <= 9.8
+	->  class BAD  [0.789]
+
+Rule 29: (56/12, lift 2.1)
+	volatile.acidity > 0.205
+	volatile.acidity <= 0.26
+	citric.acid > 0.42
+	residual.sugar <= 15.4
+	chlorides <= 0.114
+	sulphates <= 0.67
+	alcohol <= 9.733334
+	->  class BAD  [0.776]
+
+Rule 30: (277/65, lift 2.1)
+	free.sulfur.dioxide <= 11
+	sulphates <= 0.58
+	alcohol <= 11.7
+	->  class BAD  [0.763]
+
+Rule 31: (19/4, lift 2.1)
+	free.sulfur.dioxide <= 10
+	pH > 3.51
+	alcohol > 10.3
+	alcohol <= 11.7
+	->  class BAD  [0.762]
+
+Rule 32: (38/11, lift 1.9)
+	fixed.acidity > 10
+	chlorides <= 0.185
+	sulphates <= 0.64
+	alcohol <= 10.3
+	->  class BAD  [0.700]
+
+Rule 33: (21/6, lift 1.9)
+	volatile.acidity <= 0.205
+	residual.sugar <= 12
+	pH <= 3.03
+	alcohol <= 10.1
+	->  class BAD  [0.696]
+
+Rule 34: (276/96, lift 1.8)
+	free.sulfur.dioxide <= 16
+	total.sulfur.dioxide > 75
+	alcohol <= 11.7
+	->  class BAD  [0.651]
+
+Rule 35: (2311/1063, lift 1.5)
+	alcohol <= 10.3
+	->  class BAD  [0.540]
+
+Rule 36: (30, lift 1.5)
+	fixed.acidity <= 7.1
+	residual.sugar <= 1.65
+	free.sulfur.dioxide > 16
+	total.sulfur.dioxide > 86
+	total.sulfur.dioxide <= 127
+	alcohol > 10.3
+	alcohol <= 10.8
+	->  class GOOD  [0.969]
+
+Rule 37: (124/6, lift 1.5)
+	volatile.acidity <= 0.205
+	residual.sugar > 12
+	chlorides > 0.033
+	->  class GOOD  [0.944]
+
+Rule 38: (652/38, lift 1.5)
+	sulphates > 0.37
+	alcohol > 11.7
+	->  class GOOD  [0.940]
+
+Rule 39: (14, lift 1.5)
+	citric.acid <= 0.04
+	free.sulfur.dioxide > 11
+	free.sulfur.dioxide <= 16
+	alcohol > 10.3
+	->  class GOOD  [0.938]
+
+Rule 40: (1027/83, lift 1.4)
+	volatile.acidity <= 0.53
+	residual.sugar > 1.65
+	free.sulfur.dioxide > 16
+	density <= 0.99575
+	alcohol > 10.3
+	->  class GOOD  [0.918]
+
+Rule 41: (1159/94, lift 1.4)
+	volatile.acidity <= 0.53
+	free.sulfur.dioxide > 16
+	alcohol > 10.8
+	->  class GOOD  [0.918]
+
+Rule 42: (109/10, lift 1.4)
+	volatile.acidity <= 0.26
+	chlorides <= 0.033
+	sulphates > 0.49
+	->  class GOOD  [0.901]
+
+Rule 43: (439/60, lift 1.4)
+	volatile.acidity > 0.26
+	citric.acid > 0.25
+	chlorides <= 0.037
+	->  class GOOD  [0.862]
+
+Rule 44: (104/14, lift 1.4)
+	volatile.acidity <= 0.26
+	alcohol > 10.1
+	alcohol <= 10.3
+	->  class GOOD  [0.858]
+
+Rule 45: (162/24, lift 1.3)
+	fixed.acidity <= 8.9
+	total.sulfur.dioxide > 87
+	total.sulfur.dioxide <= 96
+	alcohol > 9.5
+	->  class GOOD  [0.848]
+
+Rule 46: (1713/379, lift 1.2)
+	volatile.acidity <= 0.26
+	citric.acid > 0.19
+	residual.sugar <= 17.7
+	->  class GOOD  [0.778]
+
+Rule 47: (673/150, lift 1.2)
+	fixed.acidity <= 8.9
+	volatile.acidity <= 0.665
+	residual.sugar > 6.75
+	alcohol > 9.5
+	->  class GOOD  [0.776]
+
+Rule 48: (1422/445, lift 1.1)
+	sulphates > 0.57
+	->  class GOOD  [0.687]
+
+Default class: GOOD
+
+
+Evaluation on training data (4550 cases):
+
+	        Rules     
+	  ----------------
+	    No      Errors
+
+	    48  817(18.0%)   <<
+
+
+	   (a)   (b)    <-classified as
+	  ----  ----
+	  1136   521    (a): class BAD
+	   296  2597    (b): class GOOD
+
+
+	Attribute usage:
+
+	 93.27%	alcohol
+	 71.80%	volatile.acidity
+	 62.77%	residual.sugar
+	 51.60%	sulphates
+	 49.87%	citric.acid
+	 43.05%	free.sulfur.dioxide
+	 26.97%	fixed.acidity
+	 24.70%	density
+	 20.42%	chlorides
+	 12.46%	total.sulfur.dioxide
+	  4.64%	pH
+	  3.54%	color
+
+
+Time: 0.2 secs
+
