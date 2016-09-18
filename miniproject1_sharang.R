@@ -96,7 +96,10 @@ corrplot(correlationMatrix, method = 'number', tl.cex = 0.5)
 #remove highly correlated variables from the data set
 data$density= NULL
 data$total.sulfur.dioxide= NULL
-
+train$density= NULL
+test$density= NULL
+train$total.sulfur.dioxide= NULL
+test$total.sulfur.dioxide= NULL
 
 #decision tree 
 library(C50)
